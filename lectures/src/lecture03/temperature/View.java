@@ -2,7 +2,7 @@ package lecture03.temperature;
 
 public class View {
     double getTemperature() {
-        return 0.0;
+        return 30.0;
     }
 
     void showTemperature(double c, double f) {
