@@ -1,8 +1,11 @@
 package lecture03.temperature;
+import javax.swing.*;
 
 public class View {
     double getTemperature() {
-        return 30.0;
+        String input = JOptionPane.showInputDialog("Enter temperature in degrees Celsius");
+        int c = Integer.parseInt(input);
+        return c;
     }
 
     void showTemperature(double c, double f) {
